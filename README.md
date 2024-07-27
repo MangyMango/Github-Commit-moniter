@@ -1,7 +1,6 @@
 # GitHub Commit Monitor
 
-A sleek, minimalist app to monitor your GitHub commits and alert you when you haven't made any in a while.
-
+A sleek, minimalist app to monitor your GitHub commits and alarm you if you are being a lazy idiot.
 ## Features
 
 - Monitor any GitHub repository
@@ -13,11 +12,11 @@ A sleek, minimalist app to monitor your GitHub commits and alert you when you ha
 
 First, clone the repo:
 
-
+`https://github.com/MangyMango/Github-Commit-moniter.git`
 
 Then, navigate to the project directory:
 
-`cd github-commit-monitor`
+`cd Github-Commit-Monitor`
 
 Install the dependencies:
 
@@ -29,7 +28,7 @@ To start the app, run:
 
 `npm start`
 
-You'll need to enter your GitHub personal access token, the repository you want to monitor, and set your preferred check interval and time threshold.
+You'll need to enter your GitHub personal access token with repo access, the repository you want to monitor, and set your preferred check interval and time threshold and a sound effect to play.
 
 ## Building
 
@@ -45,4 +44,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+AGPL - GNU Affero General Public License
