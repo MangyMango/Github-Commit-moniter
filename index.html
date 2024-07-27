@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GitHub Commit Monitor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div id="titlebar">
+      <button id="closeBtn">X</button>
+    </div>
+    <h1>GitHub Commit Monitor</h1>
+    <form id="settingsForm">
+      <label for="githubToken">GitHub Token</label>
+      <input type="password" id="githubToken" required placeholder="Enter your GitHub token">
+
+      <label for="repoName">Repository Name</label>
+      <input type="text" id="repoName" required placeholder="username/repository">
+
+      <label for="soundFile">Alert Sound</label>
+      <input type="file" id="soundFile" accept="audio/*" required>
+
+      <label for="checkInterval">Check Interval (minutes)</label>
+      <input type="number" id="checkInterval" value="5" min="1" required>
+
+      <label for="timeThreshold">Time Threshold (minutes)</label>
+      <input type="number" id="timeThreshold" value="30" min="1" required>
+
+      <button type="submit" id="startMonitoring">Start Monitoring</button>
+    </form>
+    <div id="status"></div>
+    <div id="stopwatch"></div>
+  </div>
+  <script type="module" src="renderer.js"></script>
+</body>
+</html>

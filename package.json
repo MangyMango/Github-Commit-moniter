@@ -1,0 +1,33 @@
+{
+  "type":"module",
+  "name": "github-commit-monitor",
+  "version": "0.69",
+  "description": "fucks me in the ass i dunno",
+  "main": "main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "nigger.comr",
+    "mac": {
+      "category": "public.app-category.developer-tools"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  },
+  "author": "eeeee",
+  "license": "nigger",
+  "devDependencies": {
+    "electron": "^13.0.0",
+    "electron-builder": "^22.11.7"
+  },
+  "dependencies": {
+    "@octokit/rest": "^18.5.3",
+    "howler": "^2.2.3"
+  }
+}
